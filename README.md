@@ -5,6 +5,8 @@
 
 <p align="center"><em>A brick villa on a quiet Seoul street, written to be walked through.</em></p>
 
+<p align="center"><sub>For 시경 아저씨 — made with love, just because it was fun to make something for him.</sub></p>
+
 <p align="center">
   <a href="./index.html"><strong>▶ OPEN SEOUL HOUSE →</strong></a><br>
   <sub>One file · 760 KB · desktop and phone · no install · WebGL2</sub>
@@ -108,7 +110,17 @@ The 2F floor exists only for part of the plan (there is a stair opening), so any
 ### 6. A street that lives
 Pedestrians, a cat, ginkgo leaves, a synthesised ballad playing on the living-room TV, voice lines from neighbours, and shops you can walk into.
 
-![Street with convenience store](docs/img/street.png)
+![Ginkgo street in daylight](docs/img/street-day.jpg)
+
+### The street after dark
+
+| Dusk · the barbecue stall | Night · the convenience store |
+|---|---|
+| ![Dusk on the street, a barbecue stall sign lit](docs/img/street-dusk.jpg) | ![Night, a convenience store with customers inside](docs/img/street-night.jpg) |
+
+![Inside the convenience store, Drinks and Coffee counter](docs/img/store-interior.jpg)
+
+<sub>In-scene captures, including the HUD basket: you can walk into the shops, pick things up and pay at the counter.</sub>
 
 ---
 
@@ -219,4 +231,8 @@ The scene is built from many small meshes. That is fine today, but per-object dr
 
 ## Credits
 
-Built on [three.js](https://threejs.org/) (MIT). All geometry, textures, music and voice lines are generated in code; there are no third-party assets, brands or real people in the scene.
+Built on [three.js](https://threejs.org/) (MIT). All geometry, textures, music and voice lines are generated in code; there are no third-party assets or real people in the scene. Shop names such as 7-Eleven appear only as street set-dressing and imply no affiliation.
+
+---
+
+<p align="center"><sub>For 시경 아저씨, with love.</sub></p>
