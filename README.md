@@ -8,12 +8,12 @@
 <p align="center"><sub>For 시경 아저씨 — made with love, just because it was fun to make something for him.</sub></p>
 
 <p align="center">
-  <a href="./index.html"><strong>▶ OPEN SEOUL HOUSE →</strong></a><br>
+  <a href="https://bougiezoe.github.io/seoul-house/"><strong>▶ OPEN SEOUL HOUSE →</strong></a><br>
   <sub>One file · 760 KB · desktop and phone · no install · WebGL2</sub>
 </p>
 
 <p align="center">
-  <code>three.js r160</code> &nbsp;·&nbsp; <code>single HTML</code> &nbsp;·&nbsp; <code>0 external requests</code> &nbsp;·&nbsp; <code>EN · 한국어 · 中文 · 日本語</code>
+  <code>three.js r160</code> &nbsp;·&nbsp; <code>single HTML</code> &nbsp;·&nbsp; <code>0 external requests</code> &nbsp;·&nbsp; <code>MIT</code> &nbsp;·&nbsp; <code>EN · 한국어 · 中文 · 日本語</code>
 </p>
 
 ---
@@ -22,7 +22,7 @@
 
 ![Clear, rain, snow and dusk on the street outside the villa](docs/img/weather-loop.gif)
 
-Download `index.html` and double-click it. It runs offline, so it works on desktop and phone without a server, a CDN or a single network request.
+Open the link above, or download `index.html` and double-click it. It is one self-contained file, so it also runs offline, without a server, a CDN or a single network request.
 
 The loop above cycles the five states the street can be in: **clear → rain → snow → dusk → night**. Press `1` `2` `3` `4` to switch, or use the buttons top-left on a phone.
 
@@ -225,9 +225,12 @@ The scene is built from many small meshes. That is fine today, but per-object dr
 - Static batching for non-moving props
 - Reflective puddles, snow footprints
 - Contact shadows and more Korean street furniture
-- A hosted live demo
 
 ---
+
+## License
+
+[MIT](LICENSE) — use it, learn from it, remix it; keep the copyright notice.
 
 ## Credits
 
