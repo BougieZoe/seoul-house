@@ -2553,6 +2553,7 @@ function shHero(x, z, ry, o) {
   TICKERS.push(function () {
     var inside = P.z > 12.7;
     scene.traverse(function (o) {
+      if (o.userData && o.userData.wx) { if (inside) o.visible = false; return; }
       if (o.isPoints) o.visible = !inside;
     });
     PEOPLE.forEach(function (p) {
@@ -2804,6 +2805,7 @@ SH_T.order_chicken = ["Order chicken + beer", "\uCE58\uD0A8 \uC8FC\uBB38", "\u70
 TICKERS.push(function () {
   var inside = P.z > 12.7;
   scene.traverse(function (o) {
+    if (o.userData && o.userData.wx) { if (inside) o.visible = false; return; }
     if (o.material && o.material.uniforms && o.material.uniforms.uAmt) o.visible = !inside;
   });
 });
@@ -3092,6 +3094,7 @@ TICKERS.push(function () {
 TICKERS.push(function () {
   var inside = P.z > 12.7;
   scene.traverse(function (o) {
+    if (o.userData && o.userData.wx) { if (inside) o.visible = false; return; }
     if ((o.isPoints || o.isLineSegments || o.isLine) && o.geometry && o.geometry.attributes && o.geometry.attributes.position && o.geometry.attributes.position.count > 40) o.visible = !inside;
   });
 });

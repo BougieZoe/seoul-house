@@ -109,6 +109,7 @@ function updateWorld(dt, t) {
   M.wood.emissive.setRGB(1, 0.45, 0.15); M.wood.emissiveIntensity = approach(M.wood.emissiveIntensity, S.ondol ? 0.1 : 0, dt * 0.15); thermoMat.emissiveIntensity = S.ondol ? 1.1 : 0.25;
   // precipitation
   PRE.uCam.value.copy(camera.position);
+  rain.userData.wx = snow.userData.wx = leaves.userData.wx = true; // weather layers: visibility is owned here, shop tickers may only hide them
   rain.visible = WX.rain > 0.01; rain.material.uniforms.uAmt.value = WX.rain;
   snow.visible = WX.snow > 0.01; snow.material.uniforms.uAmt.value = WX.snow;
   const lf = (1 - Math.max(WX.rain, WX.snow)) * (WORLD.night < 0.7 ? 1 : 0.4); leaves.visible = lf > 0.02; leaves.material.uniforms.uAmt.value = lf * 0.95;
